@@ -1,20 +1,17 @@
+import 'package:assignment/app/routes/app_pages.dart';
 import 'package:get/get.dart';
 
 class HomeController extends GetxController {
-  //TODO: Implement HomeController
-
-  final count = 0.obs;
   @override
   void onInit() {
     super.onInit();
   }
 
-  @override
-  void onReady() {
-    super.onReady();
+  void navigateToBlog() {
+    Get.toNamed(Routes.BLOG);
   }
 
-  @override
-  void onClose() {}
-  void increment() => count.value++;
+  void navigateToWeekDaysMenu() {
+    Get.toNamed(Routes.WEEK_DAYS_MENU);
+  }
 }

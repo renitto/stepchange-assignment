@@ -1,16 +1,43 @@
 # assignment
 
-A new Flutter project.
+Version: v0.1.0 beta<br />
+Author: Renitto Jose
+
+## Summary
+
+simple application containing Assignment modules. It contains following screens
+
+### 1. Home Screen
+
+Here 2 menus are listed using Column widget
+
+![Alt text](/screenshots/home.png?raw=true "Home Screen")
+
+### 2. Blog Screen
+
+A screen containing an internal WebView in which a blog url is loaded on initial state
+
+![Alt text](/screenshots/blog.png?raw=true "Blog Screen")
+
+### 3. Week Days Menu
+
+Here Listing seven days of the week using a ListView.builder and list item as CheckboxListTile.
+Multiple selection of list item is possible. On selection adding/subtracting the selected item value
+to total value and displaying it.
+
+![Alt text](/screenshots/weekdays.png?raw=true "Week Days Screen")
+
+## Download build
+
+Can download apk from following location.
+[Download APK](/builds/apk/app-release.apk)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project uses GetX solution along with Get CLI. GetX is an extra-light and powerful solution for
+Flutter. It combines high-performance state management, intelligent dependency injection, and route
+management quickly and practically.
 
-A few resources to get you started if this is your first Flutter project:
+- [GetX](https://pub.dev/packages/get)
+- [Get CLI](https://pub.dev/packages/get_cli)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
